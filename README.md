@@ -124,3 +124,5 @@ CUIDADO! Este e-mail apresenta forte padrão de phishing.
 ---
 
 *Projeto desenvolvido para fins educacionais com foco em conceitos fundamentais de POO.*
+
+\```
