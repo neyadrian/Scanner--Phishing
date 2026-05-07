@@ -22,3 +22,4 @@ public class Keyword {
     public String toString() {
         return "Keyword{termo='" + termo + "', pontuacao=" + pontuacao + "}";
     }
+}
