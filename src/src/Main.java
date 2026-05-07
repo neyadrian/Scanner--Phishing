@@ -1,5 +1,3 @@
-package phishing;
-
 import analyzer.TextAnalyzer;
 import model.AnalysisReport;
 import ui.ConsoleUI;
@@ -9,12 +7,6 @@ import utils.SampleEmailGenerator;
 import java.io.IOException;
 import java.util.Scanner;
 
-/**
- * 15.10 - Scanner de Phishing
- *
- * Ponto de entrada da aplicação. Coordena a leitura do arquivo,
- * a análise do conteúdo e a exibição do relatório.
- */
 public class Main {
 
     private static final String PASTA_EMAILS = "emails";
@@ -48,9 +40,6 @@ public class Main {
         }
     }
 
-    /**
-     * Cria e-mails de exemplo e pede ao usuário qual analisar.
-     */
     private static String criarExemplos(ConsoleUI ui, Scanner input) {
         SampleEmailGenerator gerador = new SampleEmailGenerator();
         try {
